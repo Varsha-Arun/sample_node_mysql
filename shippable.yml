@@ -5,6 +5,8 @@ node_js:
 
 services:
   - mysql
+  
+build_image: drydock/u14nodpls:tip
 
 # For xunit-file module to put results in shippable folder
 env:
